@@ -20,35 +20,75 @@
                     <li><a href="#activities">Activities</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
-            
-
-            <section class="home" id="home" style="height: 100vh">
-                <div>
-                    Home
-                </div>
-            </section>
-
-            <section class="about" id="about" style="height: 100vh">
-                <div>
-                    About
-                </div>
-            </section>
-
-            <section id="activities" style="height: 100vh">
-                <div>
-                    Activities
-                </div>
-            </section>
-
-            <section id="contact" style="height: 100vh">
-                <div>
-                    Contact
-                </div>
-            </section>
-
-            
+            </nav>            
         </header>
+
+        <section class="home" id="home" style="height: 100vh">
+            <div>
+                <img src="./img/myself.jpeg">
+            </div>
+            <div>
+                <h1>Hi! I'm Matthew Gurer.</h1>
+                <h2>About me!</h2>
+            </div>
+        </section>
+
+        <section class="about" id="about" style="height: 100vh">
+            <div>
+                <h1>About me!</h1>
+                <p>Some description.</p>
+            </div>
+            <div>
+                <img src="./img/tesla_roadster_4k_3-HD.jpg">
+                <img src="./img/lucid-air-sapphire-salt-flats-rear-side-web.png">
+            </div>
+        </section>
+
+        <section id="activities" style="height: 100vh">
+            <h1>Activities</h1>
+            
+            <div style="display: flex;">
+                <div>
+                    <h2>Activity 1</h2>
+                    <img src="./img/31193.jpg">
+                    <p>Description</p>
+                </div>
+                <div>
+                    <h2>Activity 2</h2>
+                    <img src="./img/wallpapersden.com_bixby-creek-bridge-california_3840x2160.jpg">
+                    <p>Description</p>
+                </div>
+                <div>
+                    <h2>Activity 3</h2>
+                    <img src="./img/wp4729457.jpg">
+                    <p>Description</p>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <section id="contact" style="height: 100vh">
+            <h1>Contact</h1>
+            
+            <div style="display: flex">
+                <img src="./img/sKWDIq4.jpg">
+                <form action="mailto:mattgur11@gmail.com" method="post" enctype="text/plain">
+                    <div style="display: flex; flex-direction: column; width: 50vw">
+                        <label>Name:</label>
+                        <input type="text" name="Your name" placeholder="Enter your name here">
+        
+                        <label>Email:</label>
+                        <input type="email" name="Your email" placeholder="Enter your email here">
+        
+                        <label>Message:</label>
+                        <textarea name="Your message" cols="50" rows="10" placeholder="Enter your message here"></textarea>
+        
+                        <input type="submit"></input>
+                    </div>
+                </form>
+            </div>
+        </section>
     </body>
 
     <script></script>
