@@ -153,3 +153,15 @@ i{
     font-size: 1.75rem;
     margin: 0 10px 10px 10px;
 }
+
+#instagram:hover{
+    color: #F77737;
+}
+
+#linkedin:hover{
+    color: #0072b1;
+}
+
+#github:hover{
+    color: #6e5494;
+}
