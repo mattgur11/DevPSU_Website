@@ -135,8 +135,13 @@ form{
     justify-content: center;
 }
 
+.contact h1{
+    transform: translateY(30%);
+}
+
 .contact div{
     margin: 5%;
+    transform: translateY(-5%);
 }
 
 /* Footer Section */
