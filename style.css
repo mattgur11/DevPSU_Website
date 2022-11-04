@@ -136,12 +136,16 @@ form{
 }
 
 .contact h1{
-    transform: translateY(30%);
+    transform: translateY(10%);
 }
 
 .contact div{
     margin: 5%;
-    transform: translateY(-5%);
+}
+
+.contact img{
+    transform: translateY(95px);
+    height: 75vh;
 }
 
 /* Footer Section */
