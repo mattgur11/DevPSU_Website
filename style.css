@@ -10,7 +10,8 @@
 section{
     width: 100%;
     min-height: 105vh;
-    /*justify-content: center;*/
+    justify-content: center;
+    position: relative;
 }
 
 h1{
@@ -30,8 +31,8 @@ p{
 
 img{
     width: 400px;
-    margin-bottom: 50px;
-    border: 12px solid;
+    margin-bottom: 15px;
+    border: 6px solid;
 }
 
 a{
@@ -80,7 +81,6 @@ form{
 .home{
     background-color: rgb(52, 73, 94);
     display: flex;
-    padding-bottom: 100px;
 }
 
 .home div{
@@ -94,15 +94,29 @@ form{
     height: 110%;
     object-fit: cover;
     position: absolute;
+    transform: translateY(-64px);
+}
+
+.home h1{
+    font-size: 6rem;
 }
 
 /* About Section */
 .about{
     display: flex;
+    height: 150vh;
+}
+
+.about p{
+    margin-right: 15%;
 }
 
 .about div{
-    margin: 8%;
+    margin: 3%;
+}
+
+.about img{
+    transform: translateY(30px);
 }
 
 /* Activities Section */
