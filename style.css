@@ -115,7 +115,7 @@ form{
 
 .activities-container{
     display: flex;
-    padding: 20px;
+    padding: 0 20px 0 20px;
     /*margin: 0 8%;*/
     justify-content: space-between;
 }
