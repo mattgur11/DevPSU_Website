@@ -119,10 +119,17 @@ form{
     transform: translateY(30px);
 }
 
+/* Experience Section */
+.experience{
+    height: 150vh;
+    background-color: rgb(52, 73, 94);
+    padding: 50px 0 100px 0;
+}
+
 /* Activities Section */
 .activities{
     display: block;
-    background-color: rgb(52, 73, 94);
+    background-color: rgb(255, 255, 255);
     padding: 50px 0 100px 0;
     text-align: center;
 }
@@ -147,6 +154,31 @@ form{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+/* Resume Section */
+.resume{
+    height: 150vh;
+    background-color: rgb(52, 73, 94);
+    padding: 50px 0 100px 0;
+}
+
+.resume h1{
+    text-align: center;
+}
+
+.resume div{
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume iframe{
+    position: absolute;
+    left: 12.5%;
+    width: 75%;
+    height: 75%;
 }
 
 /* Contact Section */
