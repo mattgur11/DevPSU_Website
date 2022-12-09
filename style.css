@@ -121,9 +121,44 @@ form{
 
 /* Experience Section */
 .experience{
-    height: 150vh;
+    height: 180vh;
     background-color: rgb(52, 73, 94);
-    padding: 50px 0 100px 0;
+    padding: 50px 50px 100px 50px;
+}
+
+.position{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.position img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+
+.description-header{
+    font-size: 2.25rem;
+    padding-bottom: 10px;
+}
+
+.position-title{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.company{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.position p{
+    font-size: 1.5rem;
+}
+
+.position-description-container{
+    padding-left: 50px;
 }
 
 /* Activities Section */
