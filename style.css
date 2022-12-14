@@ -12,6 +12,7 @@ section{
     min-height: 105vh;
     justify-content: center;
     position: relative;
+    overflow: auto;
 }
 
 h1{
